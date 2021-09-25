@@ -1,3 +1,7 @@
+#mastodon-svg-logo-full path {
+  stroke: $primary-text-color !important;
+}
+
 .container-alt {
   width: 700px;
   margin: 0 auto;
@@ -321,15 +325,13 @@
 
     .brand {
       display: block;
-      padding: 15px;
 
       svg {
         display: block;
-        height: 18px;
+        height: 1.8rem;
         width: auto;
         position: relative;
-        bottom: -2px;
-        fill: $primary-text-color;
+        bottom: -.5rem;
 
         @media screen and (max-width: $no-gap-breakpoint) {
           height: 20px;

@@ -863,14 +863,14 @@ $small-breakpoint: 960px;
 .brand {
   position: relative;
   text-decoration: none;
+
+  svg {
+    margin-bottom: 1rem;
+  }
 }
 
 .brand__tagline {
   display: block;
-  position: absolute;
-  bottom: -10px;
-  left: 50px;
-  width: 300px;
   color: $ui-primary-color;
   text-decoration: none;
   font-size: 14px;
